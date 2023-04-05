@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">TProd</string>
+    <string name="welcome_x">Welcome\n%s</string>
+    <string name="bag_no_x">Bag No : %s</string>
+    <string name="enter_date">Enter Date</string>
+    <string name="success">Success</string>
+    <string name="oops">Oops!</string>
+    <string name="invalid">Invalid!</string>
+    <string name="data_saved">Data saved</string>
+    <string name="please_enter_all_fields">Please enter all fields.</string>
+    <string name="please_correct_date_settings">Please correct your system date settings.</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="you_want_to_download">You want to download?</string>
+    <string name="okay">Okay</string>
+    <string name="save">Save</string>
+    <string name="clear">Clear</string>
+    <string name="down_in_excel">Download in Excel</string>
+    <string name="kgs">KGs</string>
+    <string name="trough_no">Trough No</string>
+    <string name="date">Date</string>
+    <string name="please_connect_to_internet">Please connect to internet</string>
+</resources>
