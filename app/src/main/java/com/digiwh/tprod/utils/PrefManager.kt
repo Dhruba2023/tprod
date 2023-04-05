@@ -8,27 +8,29 @@ const val PREF_BAG_NO = "bagNo"
 
 object PrefManager{
 
+    private const val prefKey = "tprod"
+
     fun saveLong(context : Context, key : String, value : Long){
-        val sharedPreferences = context.getSharedPreferences("tprod", MODE_PRIVATE)
+        val sharedPreferences = context.getSharedPreferences(prefKey, MODE_PRIVATE)
         val editor = sharedPreferences.edit()
         editor.putLong(key, value)
         editor.apply()
     }
 
     fun getLong(context : Context, key : String): Long {
-        val sharedPreferences = context.getSharedPreferences("tprod", MODE_PRIVATE)
+        val sharedPreferences = context.getSharedPreferences(prefKey, MODE_PRIVATE)
         return sharedPreferences.getLong(key, 1L)
     }
 
     fun saveString(context : Context, key : String, value : String){
-        val sharedPreferences = context.getSharedPreferences("tprod", MODE_PRIVATE)
+        val sharedPreferences = context.getSharedPreferences(prefKey, MODE_PRIVATE)
         val editor = sharedPreferences.edit()
         editor.putString(key, value)
         editor.apply()
     }
 
     fun getString(context : Context, key : String): String? {
-        val sharedPreferences = context.getSharedPreferences("tprod", MODE_PRIVATE)
+        val sharedPreferences = context.getSharedPreferences(prefKey, MODE_PRIVATE)
         return sharedPreferences.getString(key, null)
     }
 
